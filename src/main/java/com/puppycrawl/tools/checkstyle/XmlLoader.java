@@ -51,7 +51,7 @@ import com.puppycrawl.tools.checkstyle.utils.UnmodifiableCollectionUtil;
  * @noinspectionreason ThisEscapedInObjectConstruction - only reference is used and not
  *      accessed until initialized
  */
-public class XmlLoader
+public abstract class XmlLoader
     extends DefaultHandler {
 
     /** Maps public id to resolve to resource name for the DTD. */
