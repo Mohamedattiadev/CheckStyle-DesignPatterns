@@ -35,18 +35,18 @@
 *~
 
 # Java Virtual machine crash logs
-hs_err_pid*
-replay_pid*
+# hs_err_pid*
+# replay_pid*
 
 # Apple MAC OSX hidden file
 .DS_Store
 
 # NonDex files
-.nondex
+# .nondex
 
 # temp folder for files/folders of ci validations
-.ci-temp
+# .ci-temp
 
 # antlr4 grammar generates these
-**/gen
-**/JavaLanguageLexer.tokens
+# **/JavaLanguageLexer.tokens
+# **/gen
