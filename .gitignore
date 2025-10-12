@@ -1,32 +1,32 @@
 # Eclipse project files
-.settings
-.externalToolBuilders
-.classpath
-.project
+# .settings
+# .externalToolBuilders
+# .classpath
+# .project
 
 # m2e-code-quality Eclipse IDE plugin temporary configuration files for Eclipse CS Checkstyle / PMD / SpotBugs Plug-Ins
-.checkstyle
-.pmd
-.pmdruleset.xml
-.fbExcludeFilterFile
+# .checkstyle
+# .pmd
+# .pmdruleset.xml
+# .fbExcludeFilterFile
 
 # NetBeans project files
-nbactions.xml
-nb-configuration.xml
+# nbactions.xml
+# nb-configuration.xml
 
 # Maven build folder
-target
-bin
+# target
+# bin
 
 # Maven Wrapper (modern setup — do not include jar/downloader)
-.mvn/wrapper/maven-wrapper.jar
-.mvn/wrapper/MavenWrapperDownloader.java
+# .mvn/wrapper/maven-wrapper.jar
+# .mvn/wrapper/MavenWrapperDownloader.java
 
 # IDEA project files
-checkstyle.iml
-checkstyle.ipr
-checkstyle.iws
-.idea
+# checkstyle.iml
+# checkstyle.ipr
+# checkstyle.iws
+# .idea
 
 # Vscode project files
 .vscode

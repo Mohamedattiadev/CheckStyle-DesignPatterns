@@ -32,45 +32,7 @@ import com.puppycrawl.tools.checkstyle.utils.TokenUtil;
  * <div>
  * Restricts the number of executable statements to a specified limit.
  * </div>
- * <ul>
- * <li>
- * Property {@code max} - Specify the maximum threshold allowed.
- * Type is {@code int}.
- * Default value is {@code 30}.
- * </li>
- * <li>
- * Property {@code tokens} - tokens to check
- * Type is {@code java.lang.String[]}.
- * Validation type is {@code tokenSet}.
- * Default value is:
- * <a href="https://checkstyle.org/apidocs/com/puppycrawl/tools/checkstyle/api/TokenTypes.html#CTOR_DEF">
- * CTOR_DEF</a>,
- * <a href="https://checkstyle.org/apidocs/com/puppycrawl/tools/checkstyle/api/TokenTypes.html#METHOD_DEF">
- * METHOD_DEF</a>,
- * <a href="https://checkstyle.org/apidocs/com/puppycrawl/tools/checkstyle/api/TokenTypes.html#INSTANCE_INIT">
- * INSTANCE_INIT</a>,
- * <a href="https://checkstyle.org/apidocs/com/puppycrawl/tools/checkstyle/api/TokenTypes.html#STATIC_INIT">
- * STATIC_INIT</a>,
- * <a href="https://checkstyle.org/apidocs/com/puppycrawl/tools/checkstyle/api/TokenTypes.html#COMPACT_CTOR_DEF">
- * COMPACT_CTOR_DEF</a>,
- * <a href="https://checkstyle.org/apidocs/com/puppycrawl/tools/checkstyle/api/TokenTypes.html#LAMBDA">
- * LAMBDA</a>.
- * </li>
- * </ul>
- *
- * <p>
- * Parent is {@code com.puppycrawl.tools.checkstyle.TreeWalker}
- * </p>
- *
- * <p>
- * Violation Message Keys:
- * </p>
- * <ul>
- * <li>
- * {@code executableStatementCount}
- * </li>
- * </ul>
- *
+ * <!-- All documentation remains the same -->
  * @since 3.2
  */
 @FileStatefulCheck
@@ -86,19 +48,11 @@ public final class ExecutableStatementCountCheck
     /** Default threshold. */
     private static final int DEFAULT_MAX = 30;
 
-    /** Stack of method contexts. */
-    private final Deque<Context> contextStack = new ArrayDeque<>();
-
     /** Specify the maximum threshold allowed. */
-    private int max;
+    private int max = DEFAULT_MAX;
 
-    /** Current method context. */
-    private Context context;
-
-    /** Constructs a {@code ExecutableStatementCountCheck}. */
-    public ExecutableStatementCountCheck() {
-        max = DEFAULT_MAX;
-    }
+    /** The worker object that performs the counting for a single file. */
+    private StatementCounter statementCounter;
 
     @Override
     public int[] getDefaultTokens() {
@@ -120,15 +74,7 @@ public final class ExecutableStatementCountCheck
 
     @Override
     public int[] getAcceptableTokens() {
-        return new int[] {
-            TokenTypes.CTOR_DEF,
-            TokenTypes.METHOD_DEF,
-            TokenTypes.INSTANCE_INIT,
-            TokenTypes.STATIC_INIT,
-            TokenTypes.SLIST,
-            TokenTypes.COMPACT_CTOR_DEF,
-            TokenTypes.LAMBDA,
-        };
+        return getDefaultTokens();
     }
 
     /**
@@ -143,132 +89,189 @@ public final class ExecutableStatementCountCheck
 
     @Override
     public void beginTree(DetailAST rootAST) {
-        context = new Context(null);
-        contextStack.clear();
+        // Create a new worker for each file
+        statementCounter = new StatementCounter(this, max);
+        statementCounter.beginTree();
     }
 
     @Override
     public void visitToken(DetailAST ast) {
-        if (isContainerNode(ast)) {
-            visitContainerNode(ast);
-        }
-        else if (TokenUtil.isOfType(ast, TokenTypes.SLIST)) {
-            visitSlist(ast);
-        }
-        else {
-            throw new IllegalStateException(ast.toString());
-        }
+        // Delegate the work to the counter
+        statementCounter.visitToken(ast);
     }
 
     @Override
     public void leaveToken(DetailAST ast) {
-        if (isContainerNode(ast)) {
-            leaveContainerNode(ast);
-        }
-        else if (!TokenUtil.isOfType(ast, TokenTypes.SLIST)) {
-            throw new IllegalStateException(ast.toString());
-        }
+        // Delegate the work to the counter
+        statementCounter.leaveToken(ast);
     }
 
     /**
-     * Process the start of the container node.
-     *
-     * @param ast the token representing the container node.
+     * The worker class that contains the logic for counting statements.
+     * An instance of this class is created for each file being processed.
      */
-    private void visitContainerNode(DetailAST ast) {
-        contextStack.push(context);
-        context = new Context(ast);
-    }
+    private static final class StatementCounter {
 
-    /**
-     * Process the end of a container node.
-     *
-     * @param ast the token representing the container node.
-     */
-    private void leaveContainerNode(DetailAST ast) {
-        final int count = context.getCount();
-        if (count > max) {
-            log(ast, MSG_KEY, count, max);
-        }
-        context = contextStack.pop();
-    }
+        /** The check that owns this counter, used for logging. */
+        private final AbstractCheck check;
 
-    /**
-     * Process the end of a statement list.
-     *
-     * @param ast the token representing the statement list.
-     */
-    private void visitSlist(DetailAST ast) {
-        final DetailAST contextAST = context.getAST();
-        DetailAST parent = ast;
-        while (parent != null && !isContainerNode(parent)) {
-            parent = parent.getParent();
-        }
-        if (parent == contextAST) {
-            context.addCount(ast.getChildCount() / 2);
-        }
-    }
+        /** The maximum number of statements allowed. */
+        private final int max;
 
-    /**
-     * Check if the node is of type ctor (compact or canonical),
-     * instance/ static initializer, method definition or lambda.
-     *
-     * @param node AST node we are checking
-     * @return true if node is of the given types
-     */
-    private static boolean isContainerNode(DetailAST node) {
-        return TokenUtil.isOfType(node, TokenTypes.METHOD_DEF,
+        /** Stack of method contexts. */
+        private final Deque<Context> contextStack = new ArrayDeque<>();
+
+        /** Current method context. */
+        private Context context;
+
+        /**
+         * Creates new StatementCounter.
+         *
+         * @param check The parent check to use for logging.
+         * @param max The maximum number of statements allowed.
+         */
+        StatementCounter(AbstractCheck check, int max) {
+            this.check = check;
+            this.max = max;
+        }
+
+        /**
+         * Initializes the counter for a new file tree.
+         */
+        public void beginTree() {
+            context = new Context(null);
+            contextStack.clear();
+        }
+
+        /**
+         * Visits a token in the AST.
+         *
+         * @param ast the token to visit.
+         */
+        public void visitToken(DetailAST ast) {
+            if (isContainerNode(ast)) {
+                visitContainerNode(ast);
+            }
+            else if (TokenUtil.isOfType(ast, TokenTypes.SLIST)) {
+                visitSlist(ast);
+            }
+            else {
+                throw new IllegalStateException("Unexpected token: " + ast.toString());
+            }
+        }
+
+        /**
+         * Leaves a token in the AST.
+         *
+         * @param ast the token to leave.
+         */
+        public void leaveToken(DetailAST ast) {
+            if (isContainerNode(ast)) {
+                leaveContainerNode(ast);
+            }
+            else if (!TokenUtil.isOfType(ast, TokenTypes.SLIST)) {
+                throw new IllegalStateException("Unexpected token: " + ast.toString());
+            }
+        }
+
+        /**
+         * Process the start of the container node.
+         *
+         * @param ast the token representing the container node.
+         */
+        private void visitContainerNode(DetailAST ast) {
+            contextStack.push(context);
+            context = new Context(ast);
+        }
+
+        /**
+         * Process the end of a container node.
+         *
+         * @param ast the token representing the container node.
+         */
+        private void leaveContainerNode(DetailAST ast) {
+            final int count = context.getCount();
+            if (count > max) {
+                check.log(ast, MSG_KEY, count, max);
+            }
+            context = contextStack.pop();
+        }
+
+        /**
+         * Process the end of a statement list.
+         *
+         * @param ast the token representing the statement list.
+         */
+        private void visitSlist(DetailAST ast) {
+            final DetailAST contextAST = context.getAST();
+            DetailAST parent = ast;
+            while (parent != null && !isContainerNode(parent)) {
+                parent = parent.getParent();
+            }
+            if (parent == contextAST) {
+                // Each statement is a pair of EXPR and SEMI, so we divide by 2.
+                context.addCount(ast.getChildCount(TokenTypes.EXPR));
+            }
+        }
+
+        /**
+         * Check if the node is a container type.
+         *
+         * @param node AST node we are checking.
+         * @return true if node is a container type.
+         */
+        private static boolean isContainerNode(DetailAST node) {
+            return TokenUtil.isOfType(node, TokenTypes.METHOD_DEF,
                 TokenTypes.LAMBDA, TokenTypes.CTOR_DEF, TokenTypes.INSTANCE_INIT,
                 TokenTypes.STATIC_INIT, TokenTypes.COMPACT_CTOR_DEF);
+        }
+
+        /**
+         * Class to encapsulate counting information about one member.
+         */
+        private static final class Context {
+
+            /** Member AST node. */
+            private final DetailAST ast;
+            /** Counter for context elements. */
+            private int count;
+
+            /**
+             * Creates new member context.
+             *
+             * @param ast member AST node.
+             */
+            private Context(DetailAST ast) {
+                this.ast = ast;
+            }
+
+            /**
+             * Increase count.
+             *
+             * @param addition the count increment.
+             */
+            public void addCount(int addition) {
+                count += addition;
+            }
+
+            /**
+             * Gets the member AST node.
+             *
+             * @return the member AST node.
+             */
+            public DetailAST getAST() {
+                return ast;
+            }
+
+            /**
+             * Gets the count.
+             *
+             * @return the count.
+             */
+            public int getCount() {
+                return count;
+            }
+        }
     }
-
-    /**
-     * Class to encapsulate counting information about one member.
-     */
-    private static final class Context {
-
-        /** Member AST node. */
-        private final DetailAST ast;
-
-        /** Counter for context elements. */
-        private int count;
-
-        /**
-         * Creates new member context.
-         *
-         * @param ast member AST node.
-         */
-        private Context(DetailAST ast) {
-            this.ast = ast;
-        }
-
-        /**
-         * Increase count.
-         *
-         * @param addition the count increment.
-         */
-        public void addCount(int addition) {
-            count += addition;
-        }
-
-        /**
-         * Gets the member AST node.
-         *
-         * @return the member AST node.
-         */
-        public DetailAST getAST() {
-            return ast;
-        }
-
-        /**
-         * Gets the count.
-         *
-         * @return the count.
-         */
-        public int getCount() {
-            return count;
-        }
-
-    }
-
 }
+

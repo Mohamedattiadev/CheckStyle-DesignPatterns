@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="null">
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/base/AbstractGoogleModuleTestSupport.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/base/AbstractIndentationTestSupport.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter2filebasic/rule21filename/FileNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter2filebasic/rule231filetab/WhitespaceCharactersTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter2filebasic/rule232specialescape/SpecialEscapeSequencesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter2filebasic/rule233nonascii/NonAsciiCharactersTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter3filestructure/rule32packagestatement/PackageStatementTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter3filestructure/rule331nowildcard/NoWildcardImportsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter3filestructure/rule332nolinewrap/NoLineWrappingTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter3filestructure/rule333orderingandspacing/OrderingAndSpacingTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter3filestructure/rule341onetoplevel/ExactlyOneTopLevelClassDeclarationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter3filestructure/rule3421overloadsplit/OverloadsNeverSplitTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter3filestructure/rule3sourcefile/SourceFileStructureTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter3filestructure/toolongpackagetotestcoveragegooglesjavastylerule/PackageStatementTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule411optionalbracesusage/UseOfOptionalBracesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule412nonemptyblocks/NonemptyBlocksKrStyleTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule413emptyblocks/EmptyBlocksMayBeConciseTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule42blockindentation/BlockIndentation2SpacesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule43onestatement/OneStatementPerLineTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule44columnlimit/ColumnLimit100Test.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule451wheretobreak/WhereToBreakTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule452indentcontinuationlines/IndentContinuationLinesAtLeast4SpacesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule461verticalwhitespace/VerticalWhitespaceTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule462horizontalwhitespace/HorizontalWhitespaceTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4821onevariableperline/OneVariablePerDeclarationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4822declaredwhenneeded/DeclaredWhenNeededTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4832nocstylearray/NoCstyleArrayDeclarationsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4841indentation/IndentationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4842fallthrough/FallThroughCommentedTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4843defaultlabelpresence/PresenceOfTheDefaultLabelTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4852classannotations/ClassAnnotationsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4853methodsandconstructorsannotations/MethodsAndConstructorsAnnotationsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4854fieldannotations/FieldAnnotationsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule4861blockcommentstyle/BlockCommentStyleTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule487modifiers/ModifiersTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter4formatting/rule488numericliterals/NumericLiteralsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter5naming/rule51identifiernames/RulesCommonToAllIdentifiersTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter5naming/rule521packagenames/PackageNamesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter5naming/rule522classnames/ClassNamesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter5naming/rule523methodnames/MethodNamesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter5naming/rule525nonconstantfieldnames/NonConstantFieldNamesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter5naming/rule526parameternames/ParameterNamesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter5naming/rule527localvariablenames/LocalVariableNamesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter5naming/rule528typevariablenames/TypeVariableNamesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter5naming/rule53camelcase/CamelCaseDefinedTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter6programpractice/rule62donotignoreexceptions/CaughtExceptionsNotIgnoredTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter6programpractice/rule64finalizers/FinalizersNotUsedTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter7javadoc/rule711generalform/GeneralFormTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter7javadoc/rule712paragraphs/ParagraphsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter7javadoc/rule713atclauses/BlockTagsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter7javadoc/rule72thesummaryfragment/TheSummaryFragmentTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter7javadoc/rule731selfexplanatory/ExceptionSelfExplanatoryMembersTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter7javadoc/rule732exceptionoverrides/ExceptionOverridesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter7javadoc/rule734nonrequiredjavadoc/NonRequiredJavadocTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/google/checkstyle/test/chapter7javadoc/rule73wherejavadocrequired/WhereJavadocIsUsedTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/sun/checkstyle/test/base/AbstractSunModuleTestSupport.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/sun/checkstyle/test/chapter5comments/rule52documentationcomments/InvalidJavadocPositionTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/com/sun/checkstyle/test/chapter6declarations/rule61numberperline/MultipleVariableDeclarationsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/base/AbstractCheckstyleModuleTestSupport.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/base/AbstractItModuleTestSupport.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/checks/imports/ImportOrderTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/AbstractXpathTestSupport.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAbbreviationAsWordInNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAbstractClassNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAnnotationLocationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAnnotationOnSameLineTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAnnotationUseStyleTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAnonInnerLengthTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionArrayTrailingCommaTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionArrayTypeStyleTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAvoidDoubleBraceInitializationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAvoidEscapedUnicodeCharactersTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAvoidInlineConditionalsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAvoidNestedBlocksTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAvoidNoArgumentSuperConstructorCallTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAvoidStarImportTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionAvoidStaticImportTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionBooleanExpressionComplexityTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionCatchParameterNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionClassDataAbstractionCouplingTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionClassFanOutComplexityTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionClassMemberImpliedModifierTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionClassTypeParameterNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionCommentsIndentationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionConstantNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionConstructorsDeclarationGroupingTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionCovariantEqualsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionCustomImportOrderTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionCyclomaticComplexityTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionDeclarationOrderTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionDefaultComesLastTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionDescendantTokenTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionDesignForExtensionTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionEmptyBlockTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionEmptyCatchBlockTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionEmptyForInitializerPadTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionEmptyForIteratorPadTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionEmptyLineSeparatorTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionEmptyStatementTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionEqualsAvoidNullTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionEqualsHashCodeTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionExecutableStatementCountTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionExplicitInitializationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionFallThroughTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionFinalClassTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionFinalLocalVariableTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionFinalParametersTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionGenericWhitespaceTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionHiddenFieldTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionHideUtilityClassConstructorTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionIllegalCatchTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionIllegalIdentifierNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionIllegalImportTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionIllegalInstantiationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionIllegalThrowsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionIllegalTokenTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionIllegalTokenTextTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionIllegalTypeTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionImportControlTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionImportOrderTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionIndentationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionInnerAssignmentTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionInnerTypeLastTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionInterfaceIsTypeTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionInterfaceMemberImpliedModifierTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionInterfaceTypeParameterNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionInvalidJavadocPositionTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionJavaNCSSTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionJavadocContentLocationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionJavadocMethodTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionJavadocTypeTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionJavadocVariableTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionLambdaBodyLengthTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionLambdaParameterNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionLeftCurlyTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionLocalFinalVariableNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionLocalVariableNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMagicNumberTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMatchXpathTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMemberNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMethodCountTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMethodLengthTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMethodNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMethodParamPadTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMethodTypeParameterNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMissingCtorTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMissingJavadocMethodTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMissingJavadocPackageTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMissingJavadocTypeTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMissingNullCaseInSwitchTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMissingOverrideTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMissingSwitchDefaultTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionModifiedControlVariableTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionModifierOrderTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMultipleStringLiteralsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMultipleVariableDeclarationsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionMutableExceptionTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNPathComplexityTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNeedBracesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNestedForDepthTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNestedIfDepthTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNestedTryDepthTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNoArrayTrailingCommaTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNoCloneTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNoEnumTrailingCommaTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNoFinalizerTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNoLineWrapTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNoWhitespaceAfterTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNoWhitespaceBeforeCaseDefaultColonTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionNoWhitespaceBeforeTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionOneStatementPerLineTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionOneTopLevelClassTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionOperatorWrapTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionOuterTypeFilenameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionOuterTypeNumberTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionOverloadMethodsDeclarationOrderTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionPackageAnnotationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionPackageDeclarationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionPackageNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionParameterAssignmentTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionParameterNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionParameterNumberTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionParenPadTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionPatternVariableAssignmentTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionPatternVariableNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionRecordComponentNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionRecordComponentNumberTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionRecordTypeParameterNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionRedundantImportTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionRedundantModifierTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionRequireThisTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionReturnCountTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionRightCurlyTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionSealedShouldHavePermitsListTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionSeparatorWrapTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionSimplifyBooleanExpressionTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionSimplifyBooleanReturnTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionSingleSpaceSeparatorTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionStaticVariableNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionStringLiteralEqualityTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionSuperCloneTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionSuperFinalizeTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionSuppressWarningsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionThrowsCountTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionTodoCommentTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionTrailingCommentTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionTypeNameTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionTypecastParenPadTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUncommentedMainTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnnecessaryNullCheckWithInstanceOfTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnnecessaryParenthesesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnnecessarySemicolonAfterOuterTypeDeclarationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnnecessarySemicolonAfterTypeMemberDeclarationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnnecessarySemicolonInEnumerationTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnnecessarySemicolonInTryWithResourcesTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnusedCatchParameterShouldBeUnnamedTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnusedImportsTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnusedLambdaParameterShouldBeUnnamedTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUnusedLocalVariableTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionUpperEllTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionVariableDeclarationUsageDistanceTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/XpathRegressionVisibilityModifierTest.java">
+</file>
+<file name="/home/ati/Documents/UNI Projects 25-26/DesPat/checkstyle-checkstyle-10.26.1/src/it/java/org/checkstyle/suppressionxpathfilter/Xpath
